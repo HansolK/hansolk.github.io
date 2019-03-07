@@ -1,4 +1,7 @@
-# What is React and why is it so popular?
+---
+layout: default
+title: What is React and why is it so popular?
+---
 
 I am currently a student in GA and here I am trying to share what I have learnt and discovered throughout the course and my extra study at home.
 This is my very first post, and I am going to talk about REACT!
@@ -60,5 +63,5 @@ function App () {
 Here I used React's fancy new way to manage state with 'hooks'.
 This specific useState hook, returns an array where first element is the current state and the second element is a function to update the state, causing the component to re-render. I will talk about the syntax and different ways of writing React in another post. 
 
-Anyway, React is consisted of different components. Because you are re-rendering the specific components, your web browser doesn't need to be reloaded, this gives a smooth experience for user. As you can see, by using React, your code is also much readable and cleaner. Without many lines of code, you can manage the state quite easily. These are why react is irresistable!
+Anyway, React is consisted of different components. Because you are re-rendering the specific components, your web browser doesn't need to be reloaded, this gives a smooth experience for user. As you can see, by using React, your code is also much readable and cleaner. Without many lines of code, you can manage the state quite easily. These are why React is irresistable!
 
