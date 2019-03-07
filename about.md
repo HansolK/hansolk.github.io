@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am currently a student at General Assembly in Melbourne. I am very passionate about learning different languages and creating web apps. Please join the unstoppable learning journey in my blog! 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+#### Languages I am dealing with:
+- Ruby (Sinatra, Rails)
+- Javascript (React)
+- HTML, CSS
+- Postgres
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[LinkedIn](https://linkedin.com/in/hansol-kim1)
+[GitHub](https://github.com/HansolK)
+[hansol-kim@live.com](mailto:hansol-kim@live.com)
