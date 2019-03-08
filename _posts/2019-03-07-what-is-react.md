@@ -2,8 +2,6 @@
 layout: post
 title: What is React and why is it so popular?
 ---
-
-I am currently a student in GA and here I am trying to share what I have learnt and discovered throughout the course and my extra study at home.
 This is my very first post, and I am going to talk about REACT!
 If you are studying programming, you must come across this word! But what is it exactly? **Why** do people think it is so great?
 
@@ -15,7 +13,7 @@ It might not be very helpful to you, but what I am trying to say is, with React,
 
 
 ## quick example
-All I want is making a button and span so each time I press the button, I want to show the increased number next to the button.
+All I want is making a button and span so each time I press the button, I want to show the increased number next to the button. Have a go! Click the 'increment' button!
 
 <iframe src="https://codesandbox.io/embed/jj0vxjy5v5?fontsize=14" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
