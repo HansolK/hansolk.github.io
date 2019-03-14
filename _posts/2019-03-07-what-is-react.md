@@ -61,5 +61,5 @@ function App () {
 Here I used React's fancy new way to manage state with 'hooks'.
 This specific useState hook, returns an array where first element is the current state and the second element is a function to update the state, causing the component to re-render. I will talk about the syntax and different ways of writing React in another post. 
 
-Anyway, React is consisted of different components. Because you are re-rendering the specific components, your web browser doesn't need to be reloaded, this gives a smooth experience for user. As you can see, by using React, your code is also much readable and cleaner. Without many lines of code, you can manage the state quite easily. These are why React is irresistable!
+Anyway, React is consisted of different components. Because you are re-rendering the specific components, your web browser doesn't need to be reloaded, this gives a smooth experience for user. Like in facebook, for example, your friend just logged in and facebook want to update this state. Could you imagine, if a small thing has changed within entire websit, they reload entire page? Maybe the websit reload every second and facebook won't be able to do business. As you can see, by using React, your code is also much readable and cleaner. Without many lines of code, you can manage the state quite easily. These are why React is irresistable!
 
