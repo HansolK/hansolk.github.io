@@ -10,7 +10,8 @@ I recently started to learn more about react and it is getting very interesting 
 The major difference between the functional component and class component was **state**. Functional component is literally function so you didn't need to store any states just wanted to return some html, however if you wanted to store state, your choice would've been class, at least, until a month ago. Now, since the new feature-hooks came out, the stories has changed. 
 
 # Wait. what is state?
-As I mentioned my first blog, state makes values easily manage. You might want to constantly update your counts each time you press button, but what if you have 10 different count buttons? How do you manage them all as they have different values? That's when state steps in. State is a shape of object so you can number of different states in each component. To use states, you need a constructor which is initialising state. You can also pass this state to different components using props! Props are also object.
+As I mentioned my first blog, state makes values easily manage. Everytime state changes, React re-renders the component where you made changes. Your web browser doesn't need to be reloaded, just update the specific dom elements, this gives a smooth experience for user. Like in facebook, for example, your friend just logged in and facebook want to update this state. Could you imagine, if a small thing has changed within entire websit, they reload entire page? Maybe the websit reload every second and facebook won't be able to do business.
+State is a shape of object so you can number of different states in each component. To use states, you need a constructor which is initialising state. You can also pass this state to different components using props! Props are also object.
 
 ```javascript
   class App extends Component {

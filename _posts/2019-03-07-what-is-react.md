@@ -3,22 +3,32 @@ layout: post
 title: What is React and why is it so popular?
 ---
 This is my very first post, and I am going to talk about REACT!
-If you are studying programming, you must come across this word! But what is it exactly? **Why** do people think it is so great?
+If you are studying programming, you should have already or will come across this word! But what is it exactly? *Why* do people think it is so great?
 
 ## ...so what is it?
 
-React is a javascript library for building user interface(frontend). I will put this way, you are becoming a good friend with 'JS' and sometimes, he makes your life a bit too complicated with all the rules and certain limit. You are getting a bit tired of all of his things, then one day, you met JS's new friend 'React'. React was typical popular kid that everyone likes, and he came tou you telling you all these tricks that he has to deal with the situation that you are going through with JS and said that he will help you out! What a great friend! Therefore, with React's help, you become even closer friend with JS! Happy ending.
+React is a JavaScript library for building user interfaces (frontend). 
 
-It might not be very helpful to you, but what I am trying to say is, with React, it will manage couple of things in a better way that JS couldn't. I will show you some examples.
+Think of it this way, imagine you are becoming good friends with 'JS' but he is a bit of a lazy friend and requires you to do all of the work. Over time you are getting a bit tired of this, then one day you meet JS's new friend 'React'.
+React is the older, wiser kid that knows a whole bunch of cool tricks to help make your life easier and has advice on how to deal with your other, lazier friend JS.
+React being the great friend not only offers to help make your life easier, but can help you become better at interacting with JS!
+
+What a great friend! 
+
+This may be a strange analogy, but what I am trying to say is React will not only make building interfaces a whole lot easier, but it will also make you a better JavaScript developer as well!
+
+I will show you some examples.
 
 
-## quick example
-All I want is making a button and span so each time I press the button, I want to show the increased number next to the button. Have a go! Click the 'increment' button!
+## A quick example
+Lets say, I want to make a simple counter, where each time a button is pressed, the counter increases.
+
+Click the 'increment' button!
 
 <iframe src="https://codesandbox.io/embed/jj0vxjy5v5?fontsize=14" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
-This is an example that I created using pure Javascript.
+This is an example that I created using just Javascript.
 ```javascript
   const wrapper = document.querySelector('.wrapper')
   const displayCount = document.createElement('span')
@@ -35,11 +45,12 @@ This is an example that I created using pure Javascript.
 
   countButton.addEventListener('click', increment)
 ```
-As you can see, there are so many 'appendChild' to create some elements.
+As you can see, there is so much setup code, so many appendChilds, when all I want is a button that increases a count!
+This doesn't even consider making the counter re-usable or cleaning up the counter once we are done with it.
 ![](https://media.giphy.com/media/nkLB4Gp8H6hFe/giphy.gif)
 ---
 
-Let's have a look what I wrote in React.
+Let's have a look what I wrote using React.
 
 ```javascript
 import React, { useState } from 'react';
@@ -58,8 +69,8 @@ function App () {
 
 ```
 
-Here I used React's fancy new way to manage state with 'hooks'.
-This specific useState hook, returns an array where first element is the current state and the second element is a function to update the state, causing the component to re-render. I will talk about the syntax and different ways of writing React in another post. 
+Here I used React's fancy new way feature 'hooks' to manage my state.
+This specific hook useState, returns an array where the first element is the current state and the second element is a function to update the state, causing the component to re-render. I will talk about the syntax and different ways of writing React in a future post. 
 
-Anyway, React is consisted of different components. Because you are re-rendering the specific components, your web browser doesn't need to be reloaded, this gives a smooth experience for user. Like in facebook, for example, your friend just logged in and facebook want to update this state. Could you imagine, if a small thing has changed within entire websit, they reload entire page? Maybe the websit reload every second and facebook won't be able to do business. As you can see, by using React, your code is also much readable and cleaner. Without many lines of code, you can manage the state quite easily. These are why React is irresistable!
+Without many lines of code, React helps you manage state quite easily. All you have to do is update the states, React will handle updating the html for you. This is why React is so irresistable!
 
