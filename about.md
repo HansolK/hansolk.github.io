@@ -15,6 +15,8 @@ I am currently a student at General Assembly in Melbourne. I am very passionate 
 - Postgres
 
 ### Contact me
+
 [LinkedIn](https://linkedin.com/in/hansol-kim1)
 [GitHub](https://github.com/HansolK)
 [hansol-kim@live.com](mailto:hansol-kim@live.com)
+
