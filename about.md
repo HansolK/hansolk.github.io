@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am currently a student at General Assembly in Melbourne. I am very passionate about learning different languages and creating web apps. Please join the unstoppable learning journey in my blog! 
+I am a graduate from General Assembly in Melbourne. I am very passionate about learning different languages and creating web apps. Please join the unstoppable learning journey in my blog! 
 
 ### More Information
 
